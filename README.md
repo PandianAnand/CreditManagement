@@ -46,4 +46,6 @@ This project was developed as part of my consulting work under **RealAI Solution
 
 ## 📬 Contact
 Created by **Pandian Anand**  
-https://github.com/PandianAnand
+GitHub: https://github.com/PandianAnand
+
+LinkedIn: https://www.linkedin.com/in/pandian-anand-4bb1b1218
