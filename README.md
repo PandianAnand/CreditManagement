@@ -1,34 +1,49 @@
-# Credit Limit Recommendation with Machine Learning 
+# Credit Management Using Machine Learning
 
-This project explores how machine learning can be used in order to suggest the Credit Limit Recommendation using the dataset from Basic Energy Services. It was developed from Real AI Solutions, helping Basic Energy Services.
+## 📌 Overview
+This project applies machine learning to help energy service providers, like Basic Energy Services, assess and manage customer credit risk more accurately. The model predicts optimal credit limits based on historical account data, helping reduce financial losses and ensure fair customer treatment.
 
-## 📊 Project Overview
-Using classification models like logistic regression and regression models like linear regression, this project analyzes whether a given Credit Limit is correct for each customer and suggests the recommended Credit Limit.
+## 🧠 Objective
+To build a supervised learning model that can:
+- Predict an appropriate credit limit for each customer
+- Identify patterns in payment behavior and receivables
+- Improve decision-making in customer credit assignment
 
-## 🚀 Project Workflow
+## 🛠️ Tools & Technologies
+- **Python** (pandas, NumPy, scikit-learn, matplotlib)
+- **Jupyter Notebook** for interactive analysis
+- **Linear Regression** for predictive modeling
+- **Data preprocessing & feature engineering** for ML readiness
 
-The project has one google colab notebook, which represents the entire stage of creating and testing the ML model:
+## 📊 Data Features
+- Total receivables
+- Aging categories (0–30, 31–60, 61–90, 90+ days)
+- Days since last transaction
+- Average days late
+- Existing credit limit
 
-1. **Section 1** – Data exploration, data cleaning, and ML model building.
+> Note: Data is simulated to reflect typical customer behavior patterns based on real-world structure.
 
-## 🧠 Tools & Technologies
-- Python
-- Pandas, NumPy
-- Scikit-Learn
-- Machine Learning
-- Matplotlib & Seaborn
-- Regression
+## 🔍 Model Summary
+- Built and trained a linear regression model to predict customer credit limits
+- Achieved high accuracy (R² > 0.99 in final iteration)
+- Iteratively improved feature scaling and outlier handling to refine model performance
 
-## 📁 Files
-- `Customer_Credit_Solution.ipynb`: 📊 Data exploration and Credit Limit recommendation models.
+## 💼 Real-World Relevance
+This project was developed as part of my consulting work under **RealAI Solutions**, where I deliver applied machine learning tools to businesses. This model helps companies:
+- Make smarter credit decisions
+- Lower risk of bad debt
+- Improve cash flow predictability
 
-## 🔍 How to Run
-1. Clone the repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Open the notebook in google colab
+## 📁 Structure
+- `CreditManagement.ipynb`: Complete notebook with data analysis, model training, evaluation, and insights
+- `README.md`: Project summary and instructions
 
-## 📌 Results
-- Achieved **.9974 R^2** using linear regression on the Basic Energy Services dataset.
+## 🚀 Next Steps
+- Expand to classification-based credit risk scoring
+- Integrate external credit bureau data (if available)
+- Develop a web-based tool for real-time limit suggestions
 
-## 👤 Author
-Pandian Anand – https://www.linkedin.com/in/pandian-anand-4bb1b1218/
+## 📬 Contact
+Created by **Pandian Anand**  
+https://github.com/PandianAnand
