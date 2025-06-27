@@ -36,7 +36,7 @@ This project was developed as part of my consulting work under **RealAI Solution
 - Improve cash flow predictability
 
 ## 📁 Structure
-- `CreditManagement.ipynb`: Complete notebook with data analysis, model training, evaluation, and insights
+- `Customer_Credit_Solution.ipynb`: Complete notebook with data analysis, model training, evaluation, and insights
 - `README.md`: Project summary and instructions
 
 ## 🚀 Next Steps
