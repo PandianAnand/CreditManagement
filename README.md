@@ -22,8 +22,6 @@ To build a supervised learning model that can:
 - Average days late
 - Existing credit limit
 
-> Note: Data is simulated to reflect typical customer behavior patterns based on real-world structure.
-
 ## 🔍 Model Summary
 - Built and trained a linear regression model to predict customer credit limits
 - Achieved high accuracy (R² > 0.99 in final iteration)
